@@ -1,16 +1,14 @@
-# React + Vite
+📘 Project Information
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+د دې اپلیکیشن ټول اړین معلومات، کارېدلې لایبررۍ او استعمال شوي میتودونه ما په خپله د همدې اپلیکیشن اړوند ویب‌سایټ کې په بشپړ ډول تشریح کړي دي.
+دا تشریحات په پښتو، دری او انګلیسي درې واړو ژبو کې موجود دي، تر څو هر څوک وکولای شي په اسانه ترې استفاده وکړي.
 
-Currently, two official plugins are available:
+سربېره پر دې، اپلیکیشن مې Live هم کړی دی، ترڅو تاسو وکولای شئ پروژه په عملي ډول وګورئ، وازمویئ او له نږدې ترې زده‌کړه وکړئ.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+د بشپړ معلوماتو لپاره مهرباني وکړئ د پروژې ویب‌سایټ ته مراجعه وکړئ او له هماغه ځایه هر څه په تفصیل سره زده کړئ.
 
-## React Compiler
+⭐ A Small Request
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+له تګ مخکې یوه کوچنۍ هیله 🙏
+که دا پروژه درته ګټوره تمامه شوې وي، مهرباني وکړئ ریپوزیټري ته Star ⭐ ورکړئ.
+ستاسو ملاتړ ما ته د لا غوره او ګټورو تخنیکي پروژو د جوړولو هڅونه راکوي، مننه 💙
