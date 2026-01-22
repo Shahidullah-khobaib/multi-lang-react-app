@@ -34,11 +34,6 @@ const MainSection = () => {
               <h3>{t("guide.step3")}</h3>
               <p>{t("guide.step3Desc")}</p>
             </div>
-
-            {/* <div className="step-card">
-              <h3>{t('guide.step4')}</h3>
-              <p>{t('guide.step4Desc')}</p>
-            </div> */}
           </div>
 
           {/* د کتابتونونو برخه */}

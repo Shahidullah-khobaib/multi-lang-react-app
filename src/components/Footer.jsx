@@ -1,4 +1,3 @@
-// د Footer component د سوشل میډیا لینکونو سره
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -73,7 +72,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* د copyright او star message برخه */}
         <div className="footer-bottom">
           <div className="star-message">
             <p>{t("footer.starRepo")}</p>
