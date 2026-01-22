@@ -63,7 +63,7 @@ const Footer = () => {
 
             {/* GitHub لینک */}
             <a
-              href="https://github.com"
+              href="https://github.com/Shahidullah-khobaib"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
@@ -77,7 +77,6 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="star-message">
             <p>{t("footer.starRepo")}</p>
-            
           </div>
         </div>
       </div>
