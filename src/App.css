@@ -1,0 +1,349 @@
+/* د اصلي styles د سپین رنګ او تور لیکل سره */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+  background-color: white;
+  color: black;
+}
+
+/* د RTL ژبو لپاره د direction تنظیم */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* د Navbar styles */
+.navbar {
+  background: white;
+  color: black;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.nav-logo h2 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+  background: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  background: #f0f0f0;
+  border-color: #999;
+}
+
+/* د Dropdown styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  background: #f8f8f8 !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  color: black !important;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 120px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  top: 100%;
+  right: 0;
+  z-index: 1;
+}
+
+[dir="rtl"] .dropdown-content {
+  left: 0;
+  right: auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+[dir="rtl"] .dropdown-content button {
+  text-align: right;
+}
+
+.dropdown-content button:hover {
+  background: #f1f1f1;
+}
+
+/* د Main Section styles */
+.main-section {
+  min-height: 80vh;
+  padding: 2rem;
+  background: white;
+  color: black;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: black;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+/* د Guide Section styles */
+.guide-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+}
+
+.guide-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.step-card {
+  background: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #333;
+  border: 1px solid #ddd;
+}
+
+[dir="rtl"] .step-card {
+  border-left: none;
+  border-right: 4px solid #333;
+}
+
+.step-card h3 {
+  color: black;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.step-card p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.tech-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.tech-card {
+  background: #f5f5f5;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.tech-card h3 {
+  color: black;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.tech-card ul {
+  list-style: none;
+}
+
+.tech-card li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.tech-card li:last-child {
+  border-bottom: none;
+}
+
+/* د Footer styles */
+.footer {
+  background: #f8f8f8;
+  color: black;
+  padding: 3rem 2rem 1rem;
+  border-top: 2px solid #ddd;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-section h3 {
+  margin-bottom: 1rem;
+  color: black;
+  font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.social-link {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-link:hover {
+  background: #f0f0f0;
+  border-color: #999;
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+  color: #333;
+}
+
+.star-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f0f0f0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.star-message p {
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* د responsive design لپاره */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .steps-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .tech-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .main-section {
+    padding: 1rem;
+  }
+  
+  .guide-section {
+    padding: 1rem;
+  }
+}
